@@ -1,0 +1,25 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 20%;
+    height: 200px;
+
+    background-color: darkgrey;
+
+    &.block__black{
+        background-color: black;
+    }
+}
+
+.block__element{
+    height: 50px;
+    margin: 5px;
+
+    background-color:  blue;
+
+    &.block__element--gradient--purple--white{
+        background-image: linear-gradient(350deg, purple 0%, white 100%);
+    }
+}
